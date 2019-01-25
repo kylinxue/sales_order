@@ -1,4 +1,5 @@
 #!/bin/bash
+# example: ./date_dim_generate.sh 2018-10-25 2018-12-10
 date1="$1"
 date2="$2"
 tempdate=`date -d "$date1" +%F`
